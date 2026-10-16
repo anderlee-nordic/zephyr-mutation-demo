@@ -1,0 +1,4 @@
+tree-sitter>=0.22
+tree-sitter-c>=0.23
+click>=8.1
+prettytable>=3.12

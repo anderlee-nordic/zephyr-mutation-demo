@@ -1,0 +1,13 @@
+tests:
+  demo.thermo:
+    platform_allow:
+      - native_sim
+      - native_sim/native/64
+    tags: mutation
+  demo.thermo.improved:
+    platform_allow:
+      - native_sim
+      - native_sim/native/64
+    tags: mutation
+    extra_configs:
+      - CONFIG_THERMO_TEST_IMPROVED=y

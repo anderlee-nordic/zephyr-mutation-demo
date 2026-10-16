@@ -1,0 +1,5 @@
+config THERMO_TEST_IMPROVED
+	bool "Enable the extra tests that kill surviving mutants"
+	default n
+
+source "Kconfig.zephyr"

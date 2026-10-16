@@ -1,0 +1,21 @@
+# Zephyr / CMake build output (mutate.py's default is build-mutation/)
+build/
+build-*/
+twister-out*/
+
+# mutate.py output
+mutation_report.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
